@@ -19,6 +19,7 @@ h2 {
   body {
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
   }
   
   a {
@@ -68,13 +69,11 @@ h2 {
     flex-wrap: wrap;
     margin-bottom: 0;
     margin-top: 0;
-    position: absolute;
-
  }
 
  img {
     max-width: 350px;
-    max-height: 200px;
+    max-height: 240px;
    border-radius: 20px ;
    position: relative; 
    filter: drop-shadow(10px 10px 10px #dde0da);
@@ -82,7 +81,7 @@ h2 {
 
  .box {
     width: 50%;
-    min-height: 200px;
+    min-height: 250px;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -125,12 +124,8 @@ background-color: #b9c1ae;
     width: 100%;
     height: 60px;
     background-color: #59863c;
-    position: fixed;
-    left: 0px;
-   bottom: 0px;
-   right: 0px;
-
-   
+    bottom: 0;
+    position: relative;
  }
 
  .ulfooter{
